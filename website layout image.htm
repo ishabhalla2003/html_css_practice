@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+			<style>
+				.header{
+					background-color:#f1f1f1;padding:20px;
+					text-align:center;background-image:url("jpeg.img");
+				}
+				.topnav{
+					overflow:hidden;background-color:#555;
+				}
+				.topnav a{
+					float:left;display:block;color:#f2f2f2;
+					text-decoration:none;text-align:center;padding:14px 16px;
+				} 
+				.column{
+					float:left;
+				}
+				.column.side{width:25%;}
+				.column.middle{width:50%;}
+				.row::after{
+					content:"";display:table;clear:both;}
+					@media screen and (max-width: 600px) {
+                    .column.side, .column.middle {width: 100%;}
+                }
+
+				.footer{
+					background-color:#f1f1f1;padding:20px;
+					text-align:center;
+				}	
+			</style>
+		</head>
+				<body>
+					<div class="header">
+					<h1>Header</h1>	
+				    </div>
+				    <div class="topnav">
+				    <a href="#">Link</a>
+				    <a href="#">Link</a>
+				    <a href="#">Link</a>
+				    <a href="#">Link</a>
+				    </div>
+				      <div class="row">
+				    <div class="column side">
+				    <h2>Side</h2>
+				    <p>Computer</p>
+				    </div>	
+				    <div class="column middle">
+				    <p>Computer stands for Common Operating Machine Particular Used For technological and educational research. Computer is an eclectronic machine which is particularly used for performing certain tasks. It consists of C.P.U,Mouse, Keyboard and a moniter.C.P.U is the main part as well as brain of the computer.</p>
+				    </div>
+				    <div class="column side">
+				    <h2>side</h2>	
+				    <p>Computer is very usefull device in modern era</p>
+				    </div>
+				      </div>
+				    <div class="footer">
+				    <p>Footer</p>
+				    </div>
+				    </body>
+	</html>
+		  	
